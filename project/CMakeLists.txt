@@ -24,7 +24,7 @@ set( TPCIMO-HEADERS
 	src/MetaCercle.h
    )
 
-# Add test executable target
+# Add tp_cimo executable target
 ADD_EXECUTABLE ( tp_cimo
                  src/main.c
                  ${TPCIMO-SOURCES}
